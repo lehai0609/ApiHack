@@ -7,8 +7,48 @@ and open the template in the editor.
     Created on : 03-Jan-2014, 16:44:32
     Author     : Hai
 */
-#map-canvas{
-    border: 1px solid black;
-    width: 800px;
-    height: 600px;
+/*GLOBAL*/
+h1{
+  font-family: fantasy; 
 }
+body{
+    background-image: url("fabric_of_squares_gray_@2X.png");
+}
+/*POSITIONING*/
+h1{
+    text-align: center;
+}
+#map-canvas{
+    display: block;
+    width: 50%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+select{
+    width: 15%;
+}
+#range{
+    width: 10%;
+}
+#from,
+#to{
+    width: 10%;
+}
+
+button
+{
+    width: 20%;
+    margin-left: 40%;
+}
+
+#clear{
+    width: 10%;
+    margin-left: 45%;
+}
+
