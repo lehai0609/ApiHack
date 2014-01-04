@@ -13,7 +13,7 @@
     var directions = null;
     var routeBoxer = null;
     var bounds;
-    var distance = null; //km
+    var distance = 40; //km
     var directionService = new google.maps.DirectionsService();
     var initialize = function () {
       // Default the map view to the continental U.S.
@@ -40,7 +40,6 @@
         if (status == google.maps.DirectionsStatus.OK) {
           directionsRenderer.setDirections(response);
           // Box around the overview path of the first route
-          distance = document.getElementById("range").value;
           var path = response.routes[0].overview_path;
           var boxes = routeBoxer.box(path, distance);
           for (var i = 0; i < boxes.length; i++) {

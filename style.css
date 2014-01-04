@@ -29,16 +29,15 @@ form{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    font-family: cursive;
 }
 select{
     width: 15%;
 }
-#range{
-    width: 10%;
-}
+
 #from,
 #to{
-    width: 10%;
+    width: 20%;
 }
 
 button
